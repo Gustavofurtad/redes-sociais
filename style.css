@@ -81,4 +81,25 @@ iframe#tela{
         width: 180px;
         height: 226px;
     }
+    .logo{
+    width: 46px;
+    height: 46px;
+    border-radius: 30px;
+    /*margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;*/
+    margin: 10px 10px 10px 0px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.727);
+    box-sizing: border-box;
+}
+.logo:hover{
+    border: 2px solid rgba(222, 184, 135, 0.672);
+    transform: translate(-3px, -3px);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.727);
+    transition: transform .5s , border .5s;
+    
+}
+#lista{
+    text-align: right;
+}
 }
