@@ -16,10 +16,18 @@ body, html{
 }
 main{
    height: 80vh;
-   
+    
 
 }
 section#telefone{
+    /*height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../imagens/frame-iphone.png);
+    background-repeat: no-repeat;*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -35,12 +43,15 @@ iframe#tela{
     top: 50px;
     left: 22px;
     width: 267px;
-    height: 67vh;
+    height: 35vh;
 }
 .logo{
     width: 46px;
     height: 46px;
     border-radius: 30px;
+    /*margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;*/
     margin: 10px 10px 10px 0px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.727);
     box-sizing: border-box;
@@ -55,14 +66,16 @@ iframe#tela{
 #lista{
     text-align: right;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:768px) {
     section#telefone{
+        
         background-image: url(frame-iphone\ \(1\).png);
         background-repeat: no-repeat;
         margin-top: 75px;
         margin-left: 55px;
     }
     iframe#tela{
+        display: block;
         position: relative;
         top: 38px;
         left: 13px;
@@ -70,21 +83,24 @@ iframe#tela{
         height: 226px;
     }
     .logo{
-    width: 46px;
-    height: 46px;
-    border-radius: 30px;
-    margin: 10px 10px 10px 0px;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.727);
-    box-sizing: border-box;
-}
-.logo:hover{
-    border: 2px solid rgba(222, 184, 135, 0.672);
-    transform: translate(-3px, -3px);
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.727);
-    transition: transform .5s , border .5s;
-    
-}
-#lista{
-    text-align: right;
-}
+        width: 46px;
+        height: 46px;
+        border-radius: 30px;
+        /*margin-right: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;*/
+        margin: 10px 10px 10px 0px;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.727);
+        box-sizing: border-box;
+    }
+    .logo:hover{
+        border: 2px solid rgba(222, 184, 135, 0.672);
+        transform: translate(-3px, -3px);
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.727);
+        transition: transform .5s , border .5s;
+        
+    }
+    #lista{
+        text-align: right;
+    }
 }
