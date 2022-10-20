@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px){
+    section#telefone{
+        width: 400px;
+        height: 370px;
+        left: 56%;
+    }
+    iframe#tela{
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    width: 222px;
+    height: 280px;
+    }
+
+}
